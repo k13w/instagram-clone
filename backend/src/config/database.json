@@ -1,0 +1,23 @@
+{
+  "development": {
+    "host": "localhost",
+    "username": "root",
+    "password": "heaven",
+    "dialect": "mysql",
+    "database": "database"
+  },
+  "test": {
+    "host": "localhost",
+    "username": "root",
+    "password": "heaven",
+    "dialect": "mysql",
+    "database": "database"
+  },
+  "production": {
+    "host": "localhost",
+    "username": "root",
+    "password": "heaven*1337",
+    "dialect": "mysql",
+    "database": "database"
+  }
+}
