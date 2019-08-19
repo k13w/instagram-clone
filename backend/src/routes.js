@@ -6,9 +6,12 @@ const authUser = require('./controllers/Auth');
 const createUser = require('./controllers/User');
 const createPost = require('./controllers/Post');
 const likeController = require('./controllers/Like');
+const aws = require('./controllers/aws');
 
 const router = express.Router();
 const upload = multer(uploadConfig);
+
+router.get('/aws', aws.index);
 
 router.post('/auth', authUser.store);
 router.post('/create', createUser.store);

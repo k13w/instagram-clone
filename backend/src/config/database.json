@@ -1,22 +1,22 @@
 {
   "development": {
-    "host": "localhost",
+    "host": "db",
     "username": "root",
     "password": "heaven",
     "dialect": "mysql",
     "database": "database"
   },
   "test": {
-    "host": "localhost",
+    "host": "db",
     "username": "root",
     "password": "heaven",
     "dialect": "mysql",
     "database": "database"
   },
   "production": {
-    "host": "localhost",
+    "host": "db",
     "username": "root",
-    "password": "heaven*1337",
+    "password": "heaven",
     "dialect": "mysql",
     "database": "database"
   }

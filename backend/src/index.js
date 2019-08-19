@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
@@ -24,4 +26,4 @@ app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads', 'resiz
 app.use(require('./routes'));
 
 
-server.listen(5000, () => { console.log("listening on port 5000")})
+server.listen(7000, () => { console.log("listening on aws ec2")})
